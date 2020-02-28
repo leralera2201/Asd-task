@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.header__inner {
+	font-family: 'Indie Flower', cursive;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items:  center;
+}
+
+.logo {
+	font-size: 30px;
+	color: #191919;
+	padding-left: 50px;
+	
+}
+.logo a {
+
+	text-decoration: none;
+	color: #191919;
+}
+.logo span {
+	font-size: 30px;
+	font-weight: bold;
+}
+.nav {
+	padding-right: 50px;
+}
+.nav a {
+	letter-spacing: 2px;
+
+	font-size: 24px;
+	font-family: 'Indie Flower', cursive;
+	color: #000000;
+	text-decoration: none;
+}
+.nav a:hover {
+	text-decoration: underline;
+}
+.shop-border{
+	border: 2px solid #191919;
+	padding: 20px 20px;
+}
+.shop {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.shop__inner {
+	padding-top: 50px;
+
+}
+.shop__inner_flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop__item {
+	
+	max-width: 360px;
+	text-align: center;
+	position: relative;
+	padding: 0 0 80px;
+
+}
+.shop a{
+	text-decoration: none;
+}
+
+
+.shop__button {
+	
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	bottom: 20px;
+}
+
+
+.button {
+	padding:  10px 5px;
+	text-align: center;
+	min-width: 200px;
+	background: #000;
+	
+	cursor: pointer;
+	
+}
+.shop__img:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button:hover{
+	background-color: #73672F;
+}
+
+span {
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 22px;
+	color: #191919;
+	font-family: 'Indie Flower', cursive;
+}
+
+img {
+	width: 350px;
+	height: 450px;
+}
+
+.shop__header {
+	border-bottom: 2px solid #191919;
+}
+
+.button2 {
+	display: inline-block;
+	text-align: center;
+	
+	background: #000;
+	
+	cursor: pointer;
+	min-width: 200px;
+	padding:  10px 40px;
+	margin: 20px 10px;
+}
+
+.button2 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button2:hover{
+	background-color: #73672F;
+}
+
+
+.shop__item-flex {
+	
+	display: flex;
+	justify-content: space-between;
+}
+.shop__item_padding {
+	padding: 10px 30px;
+}
+.shop-item-button {
+	padding: 15px 0;
+	margin-top: 50px;
+}
+
+.shop__item-text {
+	margin: 0 10px;
+	/*padding: 15px 0;*/
+	letter-spacing: 1px;
+	line-height: 24px;
+	text-align: justify;
+}
+.shop__item-price{
+	padding: 10px 0;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 20px;
+}
+.shop__item_title {
+	padding-top: 20px;
+}
+.shop__item_title span {
+	
+	font-size: 30px;
+	font-weight: lighter;
+}
+.shop__item_title a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.footer__inner {
+
+	text-align: center;
+	/*padding-top: 20px;*/
+	
+}
+.footer__text{
+	font-family: 'Indie Flower', cursive;
+	margin: 40px 0;
+	font-size: 30px;
+}
+.copyright {
+	margin: 10px 0;
+	letter-spacing: 1.6px;
+	font-size: 16px;
+
+}
